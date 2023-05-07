@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css.css" media="screen" />
+    <script type="text/javascript" src="sorteio.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <title>Jogo do bicho</title>
+</head>
+<body>
+    <div class="container">
+        <img src="bicho.png">
+        <div class="container1">
+            <input type="radio" name="opcao" id="dezena"/>Dezena <input type="radio" name="opcao" id="bicho"/>Bicho
+        </div>
+        <div class="container2">
+            Digite o bicho ou numero da aposta
+            <input type="number" id="numeroOrBicho"><br>
+            Digite o valor que deseja apostar
+            <input type="number" id="valorAposta"><br>
+            <button onclick="escolheOpcao()">Apostar</button><br>
+        </div>
+    </div>
+    <div class="container3">
+        <p class="sorteio"></p>
+        <p class="resultado"></p>
+    </div>
+</body>
+</html>
